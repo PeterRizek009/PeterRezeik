@@ -7,7 +7,7 @@ const Projects = () => {
            <hr className="m-0" />
             <section className="resume-section" id="education">
                 <div className="resume-section-content">
-                    <h1 className="mb-2">Projeects</h1>
+                    <h1 className="mb-5">Projeects</h1>
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-md-4">

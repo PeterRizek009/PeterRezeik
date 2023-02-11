@@ -16,7 +16,9 @@ const Skills = () => {
         <li className="list-inline-item ms-1"><i className="fab fa-bootstrap" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-js-square text-warning" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-react text-info" /></li>
+            <li className="list-inline-item ms-1"><i className="fab fa-redux text-info" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-git text-black" /></li>
+        <li className="list-inline-item ms-1"><i className="fab fa-github text-black" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-npm text-danger" /></li>
       </ul>
       <div className="subheading mb-3">Skills</div>
@@ -35,7 +37,7 @@ const Skills = () => {
         </li>
         <li>
           <span className="fa-li"><i className="fas fa-check" /></span>
-          Teamwork
+          Experience in creating responsive and adaptive web designs
         </li>
       </ul>
     </div>

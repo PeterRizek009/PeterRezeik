@@ -18,8 +18,12 @@ const About = () => {
                 </h3>
 
                 <div className="subheading mb-2">
+                <i class="fas fa-map-marker text-primary me-2"></i>
                     Alexandria,Egypt
-                    <a href="mailto:Plrizek@gmail.com" className="ms-3 text-primary">Plrizek@gmail.com</a>
+                </div>
+                <div className="subheading mb-2">
+                <i class="fa-sharp fa-solid fa-envelope text-primary me-2"></i>
+                    <a href="mailto:Plrizek@gmail.com" className="text-primary">Plrizek@gmail.com</a>
                 </div>
 
                 <div className="subheading mb-3">
@@ -32,7 +36,7 @@ const About = () => {
                     <a className="social-icon" href="https://www.youtube.com/@peter-codes6557"><i className="fab fa-youtube" /></a>
                 </div>
                 <br />
-                <p className="lead mb-5 w-75">I have a great passion for putting ideas into digital form with a great and modern view and currently  I am Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software. </p>
+                <p className="lead mb-5 w-50">Enthusiastic front-End developer with a great passion to put ideas into modern digital forms and I have a good experience using HTML and CSS and Javascript and React JS </p>
 
             </div>
         </section>
