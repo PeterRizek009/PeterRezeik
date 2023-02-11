@@ -18,12 +18,12 @@ function App() {
       <Navbar  isOpen={isOpen} setIsOpen={setIsOpen}  toggle={toggle}/>
       <Routes>
         <Route path="/" element={<About />} />
-        {/* <Route path="/about" element={<About/>}/>  
+        <Route path="/about" element={<About/>}/>  
         <Route path="/skills" element={<Skills/>}/>  
-        <Route path="/projects" element={<Projects/>}/>  
-        <Route path="/resume" element={<Resume/>}/>  
+         <Route path="/projects" element={<Projects/>}/>  
+       <Route path="/resume" element={<Resume/>}/>  
         <Route path="/certificate" element={<Certificate/>}/>  
-        <Route path="*" element={<DifferentSquares/>}/> */}
+       {/*  <Route path="*" element={<DifferentSquares/>}/> */}
       </Routes>
     </div>
   );
