@@ -7,6 +7,7 @@ import Projects from './components/myprojects/projects';
 import Resume from './components/resume/resume';
 import Certificate from './components/mycertificate/certificate';
 import React, { useState } from 'react'
+import { motion } from 'framer-motion';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Navbar  isOpen={isOpen} setIsOpen={setIsOpen}  toggle={toggle}/>
+      <motion.div animate={{ marginLeft: isOpen ? "40px" : "0px" }}  >
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About/>}/>  
@@ -25,6 +27,7 @@ function App() {
         <Route path="/certificate" element={<Certificate/>}/>  
        {/*  <Route path="*" element={<DifferentSquares/>}/> */}
       </Routes>
+      </motion.div>
     </div>
   );
 }

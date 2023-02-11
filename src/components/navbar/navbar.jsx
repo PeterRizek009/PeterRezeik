@@ -26,7 +26,7 @@ const Navbar = ({isOpen , toggle }) => {
                                 <span className="d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('./Profile.jpeg')} alt="pic" /></span>
                             </a>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/"}>About</Link>
+                                <Link className="nav-link" to={"/"}>About me</Link>
 
                             </li>
                             <li className="nav-item">

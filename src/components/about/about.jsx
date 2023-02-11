@@ -1,13 +1,15 @@
 import React from 'react';
 import "./about.css"
 
+
 const About = () => {
     return (<>
-        <section className="resume-section" id="about">
+    
+        <section className="resume-section"  id="about">
             <div className="resume-section-content">
                 <h1 className="text-capitalize">
                     Peter
-                    <span className="text-primary"> Razeik</span>
+                    <span className="text-primary"> Reziek</span>
                 </h1>
                 <br />
                 <h3 className="mb-0">
@@ -30,10 +32,11 @@ const About = () => {
                     <a className="social-icon" href="https://www.youtube.com/@peter-codes6557"><i className="fab fa-youtube" /></a>
                 </div>
                 <br />
-                <p className="lead mb-5">I have a great passion for putting ideas into digital form with a great and modern view and currently  I am Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software. </p>
+                <p className="lead mb-5 w-75">I have a great passion for putting ideas into digital form with a great and modern view and currently  I am Seeking a role as a front-end developer so I can use my thorough knowledge of programming frameworks and development software. </p>
 
             </div>
         </section>
+    
         <hr className="m-0" />
 
 

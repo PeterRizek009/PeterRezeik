@@ -1,8 +1,10 @@
+
 .portfolio-card {
     display: block;
     position: relative;
     overflow: hidden;
     height: 250px;
+    z-index: 0 !important;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }

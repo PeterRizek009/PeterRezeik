@@ -7,9 +7,8 @@ const Projects = () => {
            <hr className="m-0" />
             <section className="resume-section" id="education">
                 <div className="resume-section-content">
-                    <h1 className="mb-2">My Projeects</h1>
+                    <h1 className="mb-2">Projeects</h1>
                     <div className="container text-center">
-                        <p className="section-subtitle">What I Did ?</p>
                         <div className="row">
                             <div className="col-md-4">
                                 <a href="https://books-store-reactapp.netlify.app/" className="portfolio-card">
