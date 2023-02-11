@@ -1,15 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 import { motion } from 'framer-motion';
 import "./nav.css"
-import { GrProjects } from 'react-icons/fa';
-const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(true);
 
-    const toggle = () => setIsOpen(!isOpen);
-
+const Navbar = ({isOpen , toggle }) => {
+    
     return (
-        <motion.div animate={{ width: isOpen ? "240px" : "45px" }} className="navbar navbar-expand navbar-dark bg-primary" id="sideNav">
+        <motion.div animate={{ width: isOpen ? "240px" : "60px" }} className="navbar navbar-expand navbar-dark bg-primary" id="sideNav">
 
             <div className={isOpen ? "custom-toggler" : "custom-right"} type="button" onClick={toggle}>
                 {isOpen ?
@@ -26,10 +23,10 @@ const Navbar = () => {
                     {isOpen ?
                         <ul className="navbar-nav">
                             <a className={isOpen ? "navbar-brand" : "no-show"}>
-                                <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('./Profile.jpeg')} alt="pic" /></span>
+                                <span className="d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('./Profile.jpeg')} alt="pic" /></span>
                             </a>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/about"}>About</Link>
+                                <Link className="nav-link" to={"/"}>About</Link>
 
                             </li>
                             <li className="nav-item">
@@ -47,7 +44,7 @@ const Navbar = () => {
                         :
                         <ul className="navbar-closed">
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/about"}><i className="fas fa-house-user"></i></Link>
+                                <Link className="nav-link" to={"/"}><i className="fas fa-house-user"></i></Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={"/skills"}><i className="fas fa-cog"></i></Link>

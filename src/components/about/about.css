@@ -1,18 +1,28 @@
 .social-icons .social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
-    text-decoration: none;
-    color:  black;
-    border-radius: 100%;
-    font-size: 2rem;
-    margin-right: 1.5rem;
-  }
-  .social-icons .social-icon:last-child {
-    margin-right: 0;
-  }
-  .social-icons .social-icon:hover {
-    background-color: #bd5d38;
-  }
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  text-decoration: none;
+  color: rgb(57, 56, 56);
+  border-radius: 100%;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+
+
+.subheading i {
+  font-size: 18px;
+}
+
+.lead {
+  color: dimgray;
+}
