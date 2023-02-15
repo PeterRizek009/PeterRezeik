@@ -7,9 +7,9 @@ const About = () => {
     
         <section className="resume-section"  id="about">
             <div className="resume-section-content">
-                <h1 className="text-capitalize">
+                <h1 className="text-uppercase">
                     Peter
-                    <span className="text-primary"> Reziek</span>
+                    <span className="text-primary"> Rezeik</span>
                 </h1>
                 <br />
                 <h3 className="mb-0">
@@ -18,16 +18,16 @@ const About = () => {
                 </h3>
 
                 <div className="subheading mb-2">
-                <i class="fas fa-map-marker text-primary me-2"></i>
+                <i className="fas fa-map-marker text-primary me-2"></i>
                     Alexandria,Egypt
                 </div>
                 <div className="subheading mb-2">
-                <i class="fa-sharp fa-solid fa-envelope text-primary me-2"></i>
+                <i className="fa-sharp fa-solid fa-envelope text-primary me-2"></i>
                     <a href="mailto:Plrizek@gmail.com" className="text-primary">Plrizek@gmail.com</a>
                 </div>
 
                 <div className="subheading mb-3">
-                    <i class="fas fa-phone text-primary me-2"></i>  +201285586035 - +201557656399
+                    <i className="fas fa-phone text-primary me-2"></i>  +201285586035 - +201557656399
                 </div>
 
                 <div className="social-icons">

@@ -17,26 +17,26 @@ const Skills = () => {
         <li className="list-inline-item ms-1"><i className="fab fa-js-square text-warning" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-react text-info" /></li>
             <li className="list-inline-item ms-1"><i className="fab fa-redux text-info" /></li>
-        <li className="list-inline-item ms-1"><i className="fab fa-git text-black" /></li>
-        <li className="list-inline-item ms-1"><i className="fab fa-github text-black" /></li>
+        <li className="list-inline-item ms-1"><i className="fab fa-git text-white" /></li>
+        <li className="list-inline-item ms-1"><i className="fab fa-github text-white" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-npm text-danger" /></li>
       </ul>
       <div className="subheading mb-3">Skills</div>
-      <ul className="fa-ul mb-0">
+      <ul className="fa-ul mb-0 text-white">
         <li className="mb-1">
-          <span className="fa-li"><i className="fas fa-check" /></span>
+          <span className="fa-li text-primary"><i className="fas fa-check" /></span>
           Mobile-First, Responsive Design
         </li>
         <li className="mb-1">
-          <span className="fa-li"><i className="fas fa-check" /></span>
+          <span className="fa-li text-primary"><i className="fas fa-check" /></span>
           Problem solving
         </li>
         <li className="mb-1">
-          <span className="fa-li"><i className="fas fa-check" /></span>
+          <span className="fa-li text-primary"><i className="fas fa-check" /></span>
           Ability to learn new technology
         </li>
         <li>
-          <span className="fa-li"><i className="fas fa-check" /></span>
+          <span className="fa-li text-primary"><i className="fas fa-check" /></span>
           Experience in creating responsive and adaptive web designs
         </li>
       </ul>

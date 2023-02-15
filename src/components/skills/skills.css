@@ -1,3 +1,6 @@
 .dev-icons {
     font-size: 3rem;
 }
+.dev-icons:nth-child(3){
+    color: blueviolet;
+}

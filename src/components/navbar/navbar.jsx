@@ -47,7 +47,7 @@ const Navbar = ({isOpen , toggle }) => {
                                 <Link className="nav-link" to={"/"}><i className="fas fa-house-user"></i></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/skills"}><i className="fas fa-cog"></i></Link>
+                                <Link className="nav-link" to={"/skills"}><i className="fas fa-laptop-code"></i></Link>
 
                             </li>
                             <li className="nav-item">
@@ -56,7 +56,7 @@ const Navbar = ({isOpen , toggle }) => {
                             <li className="nav-item">
                                 <Link className="nav-link" to={"/resume"}><i className="fas fa-file"></i></Link>
                             </li>
-                            <li className="nav-item"><Link className="nav-link" to={"/certificate"}><i className="fa-sharp fa-solid fa-certificate"></i></Link></li>
+                            <li className="nav-item"><Link className="nav-link" to={"/certificate"}><i className="fa-sharp fa-solid fa-award"></i></Link></li>
                         </ul>
                     }
             </div>
