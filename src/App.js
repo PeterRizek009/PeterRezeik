@@ -26,13 +26,13 @@ function App() {
   return (
     <div className={switchOff ? "App" : "App-off"}>
 
-      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} />
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} toggleSwitch={toggleSwitch} switchOff={switchOff}/>
       <motion.div animate={{ marginLeft: isOpen ? "40px" : "0px" }}  >
-        <div className="toggleBtn">
+        {/* <div className="toggleBtn">
           <input type="checkbox" id="switch" onClick={toggleSwitch} />
           <label htmlFor="switch" ><span>Text</span></label>
            
-        </div>
+        </div> */}
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
