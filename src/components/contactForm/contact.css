@@ -1,0 +1,37 @@
+.contact-form input {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  width: 100%;
+  height: 40px;
+  padding: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  background-color: transparent;
+}
+.square-button {
+  background-color: chocolate;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 60px;
+  height: 60px;
+  border: none;
+  width: 50%;
+  border-radius: 10px;
+  transition: 0.5s color ease-in-out;
+}
+
+.square-button:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+@media (min-width: 768px) {
+  .contact-wrap {
+    width: 60%;
+    margin: auto;
+  }
+}

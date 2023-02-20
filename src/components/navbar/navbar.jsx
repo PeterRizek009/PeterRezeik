@@ -46,7 +46,12 @@ const Navbar = ({ isOpen, toggle , toggleSwitch , switchOff}) => {
                         <li className="nav-item">
                             <Link className="nav-link" to={"/resume"}>Resume</Link>
                         </li>
-                        <li className="nav-item"><Link className="nav-link" to={"/certificate"}>Certifications</Link></li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to={"/certificate"}>Certifications</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to={"/contact"}>Contact Me</Link>
+                        </li>
                     </ul>
                     :
                     <ul className="navbar-closed">

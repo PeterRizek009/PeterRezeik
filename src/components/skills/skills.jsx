@@ -1,11 +1,19 @@
 import React from 'react'
 import "./skills.css"
-
+import { motion } from 'framer-motion';
 
 const Skills = () => {
     return (<>
 
-    <div>
+    <motion.div  initial={{
+      y : "200vw",
+    }}
+    animate={{
+      y : "0"
+    }}
+    transition={{
+      duration:"0.9"
+    }}>
   <section className="resume-section" id="skills">
     <div className="resume-section-content">
       <h1 className="mb-5">Skills</h1>
@@ -43,7 +51,7 @@ const Skills = () => {
     </div>
   </section>
   <hr className="m-0" />
-</div>
+</motion.div>
 
     </>);
 }
