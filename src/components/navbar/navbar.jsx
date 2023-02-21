@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import "./nav.css"
 import "./toggle.css"
 
-const Navbar = ({ isOpen, toggle , toggleSwitch , switchOff}) => {
+const Navbar = ({ isOpen, toggle, toggleSwitch, switchOff }) => {
 
     return (
         <motion.div animate={{ width: isOpen ? "240px" : "60px" }} className="navbar navbar-expand navbar-dark bg-primary" id="sideNav">
@@ -24,7 +24,7 @@ const Navbar = ({ isOpen, toggle , toggleSwitch , switchOff}) => {
                 {isOpen ?
                     <ul className="navbar-nav">
                         <div className="toggleBtn">
-                          
+
                             <input type="checkbox" id="switch" onClick={toggleSwitch} />
                             <label htmlFor="switch" ></label>
                             <h6 className='py-5'>{switchOff ? `Light` : `Dark`}</h6>
@@ -68,7 +68,13 @@ const Navbar = ({ isOpen, toggle , toggleSwitch , switchOff}) => {
                         <li className="nav-item">
                             <Link className="nav-link" to={"/resume"}><i className="fas fa-file"></i></Link>
                         </li>
-                        <li className="nav-item"><Link className="nav-link" to={"/certificate"}><i className="fa-sharp fa-solid fa-award"></i></Link></li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to={"/certificate"}><i className="fa-sharp fa-solid fa-award"></i>
+                            </Link>
+                            </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to={"/contact"}><i className="fa-regular fa-message"></i></Link>
+                        </li>
                     </ul>
                 }
             </div>
