@@ -4,3 +4,16 @@
 .dev-icons:nth-child(3){
     color: blueviolet;
 }
+
+
+@media screen and (max-width: 600px) {
+    .dev-icons {
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    .skill-two{
+        width: 70%;
+    }
+ 
+ }

@@ -81,11 +81,23 @@
   border-radius: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .portfolio-card {
     margin-bottom:10px;
   }
   .service-card {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio-card {
+    width: 70%;
+    height: 80%;
+    margin-bottom: 5px;
+  }
+  #education{
+    margin-top: 60px;
+    min-height: 100vh;
   }
 }

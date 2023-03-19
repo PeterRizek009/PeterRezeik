@@ -42,8 +42,3 @@ label:active:after {
   width: 130px;
 }
 
-@media (max-width: 570px) {
-  label {
-    
-  }
-}

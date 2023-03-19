@@ -8,7 +8,7 @@
   z-index: 20000;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(55, 54, 54) !important;
   box-shadow: 15px 10px 50px 0px rgba(193, 192, 192, 0.3);
 }
@@ -153,7 +153,6 @@
   left: 60px;
   top: 80px;
   color: white;
-  border: 1px solid black;
   padding: 8px 6px;
   background-color: chocolate;
   border: none;
@@ -182,7 +181,7 @@
   display: block;
 }
 
-@media (max-width: 1200px) {
+@media (min-width : 300px) and (max-width: 800px) {
   #sideNav .navbar-collapse .navbar-nav {
     z-index: 20000;
   }
@@ -194,6 +193,13 @@
     margin-bottom: 0;
     list-style: none;
     margin-top: 200px;
+  }
+  .custom-toggler {
+    top:5px;
+  }
+  .custom-right {
+    top:5px;
+    color: white;
   }
 
   #sideNav .navbar-collapse .navbar-closed .nav-item {

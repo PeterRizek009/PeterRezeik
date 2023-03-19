@@ -10,6 +10,7 @@ import Certificate from './components/mycertificate/certificate';
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import Contact from './components/contactForm/contact';
+import { useCallback } from 'react';
 
 
 
@@ -18,14 +19,9 @@ function App() {
   const [isOpen, setIsOpen] = useState(true);
   const [switchOff, setSwitchOff] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const toggle = useCallback(() => setIsOpen(!isOpen) ,[isOpen]);
 
-  const toggleSwitch = () => {
-    setSwitchOff(!switchOff);
-    console.log(switchOff);
-  }
-
-  
+  const toggleSwitch =useCallback(() =>setSwitchOff(!switchOff) , [switchOff] )
 
   const location =  useLocation();
 

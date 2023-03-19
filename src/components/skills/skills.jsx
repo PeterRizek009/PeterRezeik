@@ -30,7 +30,7 @@ const Skills = () => {
         <li className="list-inline-item ms-1"><i className="fab fa-npm text-danger" /></li>
       </ul>
       <div className="subheading mb-3">Skills</div>
-      <ul className="fa-ul mb-0 text-white">
+      <ul className="fa-ul mb-0 text-white skill-two">
         <li className="mb-1">
           <span className="fa-li text-primary"><i className="fas fa-check" /></span>
           Mobile-First, Responsive Design

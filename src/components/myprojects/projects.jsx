@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 const Projects = () => {
     return (
         <>
-
             <motion.div initial={{
                 y: "200vw",
             }}
@@ -18,7 +17,7 @@ const Projects = () => {
                 <section className="resume-section" id="education">
                     <div className="resume-section-content">
                         <h1 className="mb-5">Projeects</h1>
-                        <div className="container text-center">
+                        <div className="text-center">
                             <div className="projects">
                                 <div className="project">
                                     <a href="https://books-store-reactapp.netlify.app/" className="portfolio-card">
@@ -43,7 +42,7 @@ const Projects = () => {
                                     </a>
                                 </div>
                                 <div className="project">
-                                    <a href="https://wiki-search-app.netlify.app/" className="portfolio-card">
+                                    <a href="https://wiki-search-engine00.netlify.app/" className="portfolio-card">
                                         <img src={require('./wiki.png')} className="portfolio-card-img" alt="search" />
                                         <span className="portfolio-card-overlay">
                                             <span className="portfolio-card-caption">
