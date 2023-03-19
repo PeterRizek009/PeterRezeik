@@ -29,9 +29,9 @@ const Navbar = ({ isOpen, toggle, toggleSwitch, switchOff }) => {
                             <label htmlFor="switch" ></label>
                             <h6 className='py-5'>{switchOff ? `Light` : `Dark`}</h6>
                         </div>
-                        <a className={isOpen ? "navbar-brand" : "no-show"}>
+                        <div className={isOpen ? "navbar-brand" : "no-show"} >
                             <span className="d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('./Profile.jpeg')} alt="pic" /></span>
-                        </a>
+                        </div>
                         <li className="nav-item">
                             <Link className="nav-link" to={"/"}>About me</Link>
 

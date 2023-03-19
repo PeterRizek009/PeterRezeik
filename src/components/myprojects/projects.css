@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 .portfolio-card {
-  --background: linear-gradient(to left, #f7ba2b 5%, #362f30 100%);
+  --background: linear-gradient(to left, #291d00 5%, #362f30 100%);
   width: 280px;
   /* height: 254px; */
   display: block;
@@ -44,7 +44,7 @@
   background-image: linear-gradient(
     to top,
     #e1dfed 0%,
-    rgba(234, 121, 68, 0.7) 99%,
+    rgba(97, 97, 96, 0.811) 99%,
     rgba(225, 223, 237, 0.8) 100%
   );
   -webkit-transition: all, 0.3s;
@@ -82,12 +82,7 @@
 }
 
 @media (max-width: 1200px) {
-  .portfolio-card {
-    margin-bottom:10px;
-  }
-  .service-card {
-    margin-bottom: 30px;
-  }
+ 
 }
 
 @media screen and (max-width: 800px) {

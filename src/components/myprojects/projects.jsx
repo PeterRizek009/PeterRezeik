@@ -17,7 +17,6 @@ const Projects = () => {
                 <section className="resume-section" id="education">
                     <div className="resume-section-content">
                         <h1 className="mb-5">Projeects</h1>
-                        <div className="text-center">
                             <div className="projects">
                                 <div className="project">
                                     <a href="https://books-store-reactapp.netlify.app/" className="portfolio-card">
@@ -52,7 +51,7 @@ const Projects = () => {
                                         </span>
                                     </a>
                                 </div>
-                            </div></div></div></section>
+                            </div></div></section>
             </motion.div>
         </>
     );
