@@ -19,7 +19,7 @@ const Projects = () => {
                         <h1 className="mb-5">Projeects</h1>
                             <div className="projects">
                                 <div className="project">
-                                    <a href="https://books-store-reactapp.netlify.app/" className="portfolio-card">
+                                    <a href="https://books-ecommerceapp.netlify.app/" className="portfolio-card">
                                         <img src={require('./library.jpg')} className="portfolio-card-img" alt="books" />
                                         <span className="portfolio-card-overlay">
                                             <span className="portfolio-card-caption">

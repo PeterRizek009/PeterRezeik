@@ -4,8 +4,8 @@ import "./about.css"
 
 const About = () => {
     return (<>
-    
-        <section className="resume-section"  id="about">
+
+        <section className="resume-section" id="about">
             <div className="resume-section-content">
                 <h1 className="text-uppercase">
                     Peter
@@ -18,11 +18,11 @@ const About = () => {
                 </h3>
 
                 <div className="subheading mb-2">
-                <i className="fas fa-map-marker text-primary me-2"></i>
+                    <i className="fas fa-map-marker text-primary me-2"></i>
                     Alexandria,Egypt
                 </div>
                 <div className="subheading mb-2">
-                <i className="fa-sharp fa-solid fa-envelope text-primary me-2"></i>
+                    <i className="fa-sharp fa-solid fa-envelope text-primary me-2"></i>
                     <a href="mailto:Plrizek@gmail.com" className="text-primary">Plrizek@gmail.com</a>
                 </div>
 
@@ -36,11 +36,11 @@ const About = () => {
                     <a className="social-icon" href="https://www.youtube.com/@peter-codes6557"><i className="fab fa-youtube" /></a>
                 </div>
                 <br />
-                <p className="lead mb-5 w-50">Enthusiastic front-End developer with a great passion to put ideas into modern digital forms and I have a good experience using HTML and CSS and Javascript and React JS </p>
+                <p className="lead mb-5 w-50">I am a passionate front-end developer with experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design principles and modern front-end frameworks such as React </p>
 
             </div>
         </section>
-    
+
         <hr className="m-0" />
 
 
