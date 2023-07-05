@@ -1,7 +1,8 @@
 import React from 'react'
 import "./skills.css"
 import { motion } from 'framer-motion';
-
+import {SiTypescript , SiRedux} from 'react-icons/si'
+ 
 const Skills = () => {
     return (<>
 
@@ -28,6 +29,9 @@ const Skills = () => {
         <li className="list-inline-item ms-1"><i className="fab fa-git text-white" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-github text-white" /></li>
         <li className="list-inline-item ms-1"><i className="fab fa-npm text-danger" /></li>
+        <li className="list-inline-item ms-1"><SiTypescript className='text-info'/></li>
+        <li className="list-inline-item ms-1"><SiRedux/></li>
+
       </ul>
       <div className="subheading mb-3">Skills</div>
       <ul className="fa-ul mb-0 text-white skill-two">

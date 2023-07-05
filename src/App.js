@@ -30,7 +30,7 @@ function App() {
     <div className={switchOff ? "App" : "App-off"}>
 
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} toggleSwitch={toggleSwitch} switchOff={switchOff}/>
-      <motion.div animate={{ marginLeft: isOpen ? "40px" : "0px" }}  >
+      <motion.div animate={{ marginLeft: isOpen ? "40px" : "-120px" }}  >
 
         <Routes location={location.pathname}>
           <Route path="/" element={<About />} />
@@ -40,7 +40,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/contact" element={<Contact />} />
-          {/*  <Route path="*" element={<DifferentSquares/>}/> */}
+        
         </Routes>
    
       </motion.div>

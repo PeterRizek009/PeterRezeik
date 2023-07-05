@@ -135,7 +135,7 @@ body {
 .resume-section-content h1 {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4rem;
   position: relative;
   width: 90%;
   width: 400px;
@@ -143,17 +143,6 @@ body {
   color: white;
 }
 
-.resume-section-content h1:before,
-.resume-section-content h1:after {
-  content: " ";
-  display: block;
-  max-width: 300px;
-  /* margin: 0 auto; */
-  border-bottom: 1px solid #f82702;
-  border-top: 1px solid #c50000;
-  height: 3px;
-  background-color: #f8f8f8;
-}
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
