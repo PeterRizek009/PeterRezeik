@@ -189,7 +189,7 @@
   }
 
   .navbar-closed {
-    justify-content: flex-start;
+    align-items: flex-start;
   }
   /* .custom-toggler {
     top:5px;
