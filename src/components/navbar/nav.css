@@ -189,15 +189,12 @@
   }
 
   .navbar-closed {
-    align-items: flex-start;
+    justify-content: flex-start;
   }
-  /* .custom-toggler {
-    top:5px;
+.custom-toggler {
+    display: none;
   }
-  .custom-right {
-    top:5px;
-    color: white;
-  } */
+ 
 
   #sideNav .navbar-collapse .navbar-closed .nav-item {
     display: block;
@@ -205,11 +202,11 @@
     margin:15px;
     transition: 0.2s color ease-in-out;
   }
- 
+/*  
   #sideNav .navbar-collapse .navbar-closed .nav-item:hover {
     color: chocolate;
   }
   #sideNav .navbar-collapse .navbar-closed .nav-item .nav-link {
     display: block;
-  }
+  } */
 }
