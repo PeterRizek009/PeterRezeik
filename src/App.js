@@ -16,7 +16,7 @@ import { useCallback } from 'react';
 
 function App() {
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [switchOff, setSwitchOff] = useState(false);
 
   const toggle = useCallback(() => setIsOpen(!isOpen) ,[isOpen]);
