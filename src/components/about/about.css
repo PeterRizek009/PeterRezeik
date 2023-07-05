@@ -25,13 +25,12 @@
 
 .lead {
   color: white;
+  width: 50%;
 }
 
 
 @media (min-width : 300px) and (max-width: 800px) {
-  #about{
-    margin-top: 50px;
-  }
+ 
 
   .lead{
     width: 100%;

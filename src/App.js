@@ -1,5 +1,5 @@
 import './css/app.css';
-import './css/toggle.css';
+
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/navbar/navbar';
 import About from './components/about/about';
@@ -19,17 +19,17 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [switchOff, setSwitchOff] = useState(false);
 
-  const toggle = useCallback(() => setIsOpen(!isOpen) ,[isOpen]);
+  const toggle = useCallback(() => setIsOpen(!isOpen), [isOpen]);
 
-  const toggleSwitch =useCallback(() =>setSwitchOff(!switchOff) , [switchOff] )
+  const toggleSwitch = useCallback(() => setSwitchOff(!switchOff), [switchOff])
 
-  const location =  useLocation();
+  const location = useLocation();
 
 
   return (
     <div className={switchOff ? "App" : "App-off"}>
 
-      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} toggleSwitch={toggleSwitch} switchOff={switchOff}/>
+      <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} toggleSwitch={toggleSwitch} switchOff={switchOff} />
       <motion.div animate={{ marginLeft: isOpen ? "40px" : "0px" }}  >
 
         <Routes location={location.pathname}>
@@ -40,11 +40,11 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/contact" element={<Contact />} />
-        
+
         </Routes>
-   
+
       </motion.div>
-     
+
     </div>
   );
 }

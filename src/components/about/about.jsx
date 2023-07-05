@@ -36,7 +36,7 @@ const About = () => {
                     <a className="social-icon" href="https://www.youtube.com/@peter-codes6557"><i className="fab fa-youtube" /></a>
                 </div>
                 <br />
-                <p className="lead mb-5 w-50">I am a passionate front-end developer with experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design principles and modern front-end frameworks such as React </p>
+                <p className="lead mb-5">I am a passionate front-end developer with experience in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a strong understanding of responsive design principles and modern front-end frameworks such as React </p>
 
             </div>
         </section>
