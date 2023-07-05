@@ -185,8 +185,9 @@
 
 @media (min-width : 300px) and (max-width: 800px) {
   #sideNav .navbar-collapse .navbar-nav {
-    z-index: 20000;
+    display: none;
   }
+
 
   .navbar-closed {
     justify-content: flex-start;
