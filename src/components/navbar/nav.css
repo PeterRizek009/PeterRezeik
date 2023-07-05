@@ -189,20 +189,15 @@
   }
 
   .navbar-closed {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    margin-bottom: 0;
-    list-style: none;
-    margin-top: 200px;
+    justify-content: flex-start;
   }
-  .custom-toggler {
+  /* .custom-toggler {
     top:5px;
   }
   .custom-right {
     top:5px;
     color: white;
-  }
+  } */
 
   #sideNav .navbar-collapse .navbar-closed .nav-item {
     display: block;

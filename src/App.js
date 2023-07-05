@@ -30,7 +30,7 @@ function App() {
     <div className={switchOff ? "App" : "App-off"}>
 
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} toggle={toggle} toggleSwitch={toggleSwitch} switchOff={switchOff}/>
-      <motion.div animate={{ marginLeft: isOpen ? "40px" : "-120px" }}  >
+      <motion.div animate={{ marginLeft: isOpen ? "40px" : "0px" }}  >
 
         <Routes location={location.pathname}>
           <Route path="/" element={<About />} />
