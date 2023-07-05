@@ -32,4 +32,8 @@
   #about{
     margin-top: 50px;
   }
+
+  .lead{
+    width: 100%;
+  }
 }

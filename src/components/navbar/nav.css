@@ -192,7 +192,7 @@
   .navbar-closed {
     justify-content: flex-start;
   }
-.custom-toggler {
+.custom-toggler , .custom-right {
     display: none;
   }
  
