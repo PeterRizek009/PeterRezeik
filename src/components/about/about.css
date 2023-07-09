@@ -17,8 +17,6 @@
   background-color: #bd5d38;
 }
 
-
-
 .subheading i {
   font-size: 18px;
 }
@@ -28,11 +26,8 @@
   width: 50%;
 }
 
-
-@media (min-width : 300px) and (max-width: 800px) {
- 
-
-  .lead{
+@media (min-width: 300px) and (max-width: 800px) {
+  .lead {
     width: 80%;
   }
 }
