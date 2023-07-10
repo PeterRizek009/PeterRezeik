@@ -3,6 +3,29 @@ import "./projects.css"
 import { motion } from 'framer-motion';
 
 const Projects = () => {
+
+    const projectsData = [
+        {
+            name: 'Book Store Website',
+            link: 'https://books-ecommerceapp.netlify.app/',
+            image: './library.png'
+        },
+        {
+            name: 'News website',
+            link: 'https://newsapptoday.netlify.app/',
+            image: './news.png'
+        },
+        {
+            name: 'Football  Transfers Market ',
+            link: 'https://football-transfers.netlify.app/',
+            image: './Transfer.jpg'
+        },
+        {
+            name: 'Company Landing Page',
+            link: 'https://companylanpgtemplate.netlify.app/',
+            image: './landing.png'
+        },
+    ]
     return (
         <>
             <motion.div initial={{
@@ -17,41 +40,23 @@ const Projects = () => {
                 <section className="resume-section" id="education">
                     <div className="resume-section-content">
                         <h1 className="mb-5">Projeects</h1>
-                            <div className="projects">
+                        <div className="projects">
+
+                            {projectsData.map((project) => (
                                 <div className="project">
-                                    <a href="https://books-ecommerceapp.netlify.app/" className="portfolio-card">
-                                        <img src={require('./library.jpg')} className="portfolio-card-img" alt="books" />
+                                    <a href={project.link} className="portfolio-card" key={project.name}>
+                                        <img src={require(`${project.image}`)} className="portfolio-card-img" alt="books" />
                                         <span className="portfolio-card-overlay">
                                             <span className="portfolio-card-caption">
-                                                <h4>Book store </h4>
-                                                <p className="font-weight-normal text-black">E-commerce APP</p>
+                                                <h4>{project.name}</h4>
                                             </span>
                                         </span>
                                     </a>
                                 </div>
-                                <div className="project">
-                                    <a href="https://football-transfers.netlify.app/" className="portfolio-card">
-                                        <img src={require('./Transfer.jpg')} className="portfolio-card-img" alt="football" />
-                                        <span className="portfolio-card-overlay">
-                                            <span className="portfolio-card-caption">
-                                                <h4>Football  Transfers Market </h4>
-                                                <p className="font-weight-normal text-black">getting data from API and display it and manipulate it </p>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className="project">
-                                    <a href="https://wiki-search-engine00.netlify.app/" className="portfolio-card">
-                                        <img src={require('./wiki.png')} className="portfolio-card-img" alt="search" />
-                                        <span className="portfolio-card-overlay">
-                                            <span className="portfolio-card-caption">
-                                                <h4>WIKI search APP</h4>
-                                                <p className="font-weight-normal text-black">getting data from Wikipedia API and display and save the search queries</p>
-                                            </span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div></div></section>
+                            ))}
+
+
+                        </div></div></section>
             </motion.div>
         </>
     );

@@ -4,14 +4,13 @@
   flex-wrap: wrap;
 }
 .portfolio-card {
-  --background: linear-gradient(to left, #291d00 5%, #362f30 100%);
+  background-color: #000000;
   width: 280px;
   /* height: 254px; */
   display: block;
   position: relative;
   overflow: hidden;
-  background: var(--background);
-  height: 250px;
+  height: 200px;
   z-index: 0 !important;
   border-radius: 1rem;
   margin: 10px;
@@ -38,14 +37,14 @@
   background-image: -webkit-linear-gradient(
     bottom,
     #e1dfed 0%,
-    rgba(225, 223, 237, 0.8) 99%,
-    rgba(225, 223, 237, 0.8) 100%
+    rgba(71, 70, 70, 0.8) 99%,
+    rgba(12, 12, 12, 0.8) 100%
   );
   background-image: linear-gradient(
     to top,
-    #e1dfed 0%,
-    rgba(97, 97, 96, 0.811) 99%,
-    rgba(225, 223, 237, 0.8) 100%
+    rgba(12, 12, 12, 0.8)  0%,
+    rgba(71, 70, 70, 0.8) 99%,
+    rgba(12, 12, 12, 0.8) 100%
   );
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
