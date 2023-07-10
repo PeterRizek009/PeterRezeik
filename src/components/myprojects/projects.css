@@ -86,8 +86,8 @@
 
 @media screen and (max-width: 800px) {
   .portfolio-card {
-    width: 280px;
-    height: 120px;
+    width: 220px;
+    height: 160px;
     margin-bottom: 5px;
   }
   #education{
