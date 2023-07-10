@@ -18,7 +18,7 @@ const Resume = () => {
             <div className="resume-section-content">
                 <h1 className="mb-5 resume-title">Resume</h1>
                 <p className='text-primary'>Download My resume</p>
-                <a type="button" class="btn btn-outline-warning" href="https://drive.google.com/file/d/10C_-cu5mbvNRaN4cJa1t2UHQgzh77X7m/view">Download</a>
+                <a type="button" class="btn btn-outline-warning" href="https://drive.google.com/file/d/1r9gkk5yiEutD4P1zw-ONxj2qM-QUhdhv/view?usp=sharing">Download</a>
             </div>
         </section>
         <hr className="m-0" />
